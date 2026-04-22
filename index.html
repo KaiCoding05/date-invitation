@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Invitation for Asya 💕</title>
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap)" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 50%, #ff9a9e 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #4a3f35;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .greeting {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+            color: #e75480;
+            margin-bottom: 30px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .date-invite {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #d63384;
+            margin-bottom: 15px;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .birthday-date {
+            font-size: 1.3rem;
+            color: #6d4c5e;
+            margin-bottom: 50px;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 30px;
+            display: inline-block;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .section {
+            margin: 50px 0;
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        .section-title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            color: #e75480;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #6d4c5e;
+            margin-bottom: 25px;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .image-placeholder {
+            background: linear-gradient(135deg, #fff 0%, #fce4ec 100%);
+            border-radius: 15px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #d63384;
+            font-size: 0.9rem;
+            border: 2px dashed #f8bbd9;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-placeholder:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(214, 51, 132, 0.2);
+        }
+
+        .image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 13px;
+        }
+
+        .speech-section {
+            margin-top: 60px;
+            padding: 40px 30px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 25px;
+            animation: fadeInUp 1s ease-out 0.9s both;
+        }
+
+        .speech-text {
+            font-size: 1.2rem;
+            line-height: 2;
+            color: #6d4c5e;
+            margin-bottom: 20px;
+        }
+
+        .speech-text.highlight {
+            color: #e75480;
+            font-weight: 600;
+        }
+
+        .goodbye {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            color: #d63384;
+            margin-top: 30px;
+        }
+
+        .hearts {
+            font-size: 2rem;
+            margin-top: 20px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .greeting {
+                font-size: 2.5rem;
+            }
+            .date-invite {
+                font-size: 1.4rem;
+            }
+            .image-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Greeting -->
+        <h1 class="greeting">Hi Asyaaaa</h1>
+
+        <!-- Date Invitation -->
+        <p class="date-invite">Let's go out on a DATE</p>
+        <p class="birthday-date">🎂 on your birthday 27 April 🎂</p>
+
+        <!-- Location Section -->
+        <div class="section">
+            <h2 class="section-title">Location</h2>
+            <p class="section-subtitle">Johor DT</p>
+            
+            <div class="image-gallery">
+                <!-- Replace these placeholders with your actual images -->
+                <div class="image-placeholder">
+                    <img src="images/location 1.jpg" alt="Location 1">
+                    
+                </div>
+                <div class="image-placeholder">
+                    <img src="images/location 2.jpg" alt="Location 1">
+                </div>
+                <div class="image-placeholder">
+                    <img src="images/location 3.jpg" alt="Location 1">
+                </div>
+                <div class="image-placeholder">
+                    <img src="images/location 4.jpg" alt="Location 1">
+                </div>
+            </div>
+        </div>
+
+        <!-- What to Wear Section -->
+        <div class="section">
+            <h2 class="section-title">What to Wear</h2>
+            
+            <div class="image-gallery">
+                <!-- Replace these placeholders with your outfit suggestion images -->
+                <div class="image-placeholder">
+                    <img src="images/outfit 1.jpg" alt="Outfit">
+                </div>
+                <div class="image-placeholder">
+                    <img src="images/outfit 2.jpg" alt="Outfit">
+                </div>
+            </div>
+        </div>
+
+        <!-- Sweet Message Section -->
+        <div class="speech-section">
+            <p class="speech-text highlight">It's on your birthday and don't be late~</p>
+            
